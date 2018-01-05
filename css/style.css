@@ -1,0 +1,161 @@
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.navbar-btn {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.btn {
+    padding: 17px 45px;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border: 1px solid #7F7F7F;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.btn-outline-white:hover,
+.btn-outline-white:focus,
+.btn-outline-white:active,
+.btn-outline-white.active,
+.btn-outline-white.focus,
+.btn-outline-white:active,
+.btn-outline-white:focus,
+.btn-outline-white:hover,
+.open > .dropdown-toggle.btn-outline-white {
+    color: #000;
+    background-color: #fff !important;
+    transition: all 0.5s;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.home-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bg-home {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.home-title {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.home-sub-title {
+    color: #C2C2C3;
+    font-weight: 500;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 28px;
+}
+
+.home-half-image {
+   width: 100%;
+   padding-top: 240px;
+   padding-bottom: 160px;
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.home-slider {
+    position: relative;
+}
+
+.home-slider .carousel-control-next,
+.carousel-control-prev {
+    width: 6%;
+}
+
+.home-slider .carousel-item,
+.home-slider .carousel {
+    height: 100vh;
+    width: 100%;
+}
+
+.home-slider .carousel-item {
+    background-position: center center;
+    background-size: cover;
+}
+
+.home-slider .watch-video {
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
+
+.home-slider-half .carousel-item,
+.home-slider-half .carousel {
+    height: 80vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*************************
+    6.  CTA 
+*************************/
+
+.bg-new-project {
+    background-image: url("../images/bg-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.new-project-title {
+    font-size: 36px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.contact-title-border {
+    background-color: #EE8293;
+    height: 4px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.custom-form label {
+    font-size: 15px;
+    font-weight: 500;
+}
